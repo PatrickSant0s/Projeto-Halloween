@@ -1,0 +1,256 @@
+:root {
+    --fonte-principal: "Jolly Lodger";
+    --fonte-secundaria: "Rubik";
+    --color-principal: #FE772D;
+    --color-texto-secudario: #F5F5F5;
+    --colo-texto-botao: #292D32;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    background: #000015;
+}
+
+
+
+#principal1 {
+    background-image: url(imagens/backgroud\ img.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0), rgba(0, 0, 21, 1);
+    border: none;
+
+}
+
+h1 {
+    font-family: var(--fonte-principal);
+    color: var(--color-texto-secudario);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    gap: 10px;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: var(--fonte-secundaria);
+    line-height: 150.4%;
+    color: #F5F5F5;
+
+
+
+}
+
+.botao-reserva {
+    padding: 16px 24px;
+    border-radius: 16px;
+    color: #292D32;
+    background: var(--color-principal);
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 48px 1px 50px;
+    gap: 150px;
+
+}
+
+
+.hero {
+    padding-top: 70px;
+    gap: 10px;
+    display: grid;
+    color: #fff;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+div.container-calendario {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: var(--fonte-secundaria);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    padding-right: 50px;
+}
+
+.titulo-principal {
+    font-family: var(--fonte-principal);
+    color: var(--color-principal);
+    font-size: 65px;
+    padding-top: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+
+
+/* Galeria*/
+
+
+
+.titulo-galeria {
+    padding: 100px 0 40px 0;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 55px;
+    font-weight: 40;
+    text-transform: uppercase;
+    color: var(--color-principal);
+    font-style: normal;
+}
+
+.galeria img {
+    width: 243px;
+    height: 242px;
+    border-radius: 16px;
+
+}
+
+.navegacao-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: 2;
+    gap: 40px;
+
+
+
+}
+
+/* join */
+.join {
+    padding: 40px 0 40px 0;
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: 5, 1fr;
+}
+
+.titulo-join {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-principal);
+}
+
+.subtilo-join {
+    text-align: center;
+    color: #FE2D2D;
+    font-family: var(--fonte-principal);
+    font-size: 58px;
+}
+
+
+.descricao {
+
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 48px;
+}
+
+/*ticket*/
+
+.ticket {
+    color: #E6EAEE;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.endereco {
+
+    align-items: center;
+    border-radius: 16px;
+    border-top: 2px solid #E6EAEE;
+    border-right: 2px solid #E6EAEE;
+    border-bottom: 2px solid #E6EAEE;
+    padding: 12px 24px;
+
+
+
+}
+
+.ingresso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 16px;
+    border-top: 2px solid #E6EAEE;
+    border-bottom: 2px solid #E6EAEE;
+    border-left: 2px solid #E6EAEE;
+
+}
+
+
+.caracteristicas {
+    color: #fff;
+    padding: 48px;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.confirmacoes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    align-content: center;
+}
+
+.confirma {
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
