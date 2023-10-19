@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 :root {
     --fonte-principal: "Jolly Lodger";
     --fonte-secundaria: "Rubik";
@@ -7,12 +14,6 @@
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
 
 html,
 body {
@@ -23,7 +24,7 @@ body {
 
 
 
-#principal1 {
+#principalOne{
     background-image: url(imagens/backgroud\ img.png);
     background-position: center;
     background-size: cover;
@@ -130,7 +131,6 @@ div.container-calendario {
 /* Galeria*/
 
 
-
 .titulo-galeria {
     padding: 100px 0 40px 0;
     text-align: center;
@@ -152,11 +152,8 @@ div.container-calendario {
 .navegacao-fotos {
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
-    grid-template-rows: 2;
-    gap: 40px;
-
-
-
+    justify-content: space-between;
+    gap: 3rem;
 }
 
 /* join */
@@ -298,9 +295,6 @@ div.container-calendario {
     justify-content: center;
     justify-items: center;
     padding: 20px 0px 20px 0px;
-
-
-
 }
 
 .single {
@@ -324,7 +318,7 @@ div.container-calendario {
     text-transform: uppercase;
 }
 
-.descricao-plano p {
+.descricao-plano > p {
     color: var(--White, #F9F9F9);
     text-align: center;
     font-family: var(--fonte-secundaria);
@@ -333,7 +327,6 @@ div.container-calendario {
     font-weight: 400;
     text-transform: capitalize;
     margin: 43px;
-
 }
 
 .bota-ticket {
